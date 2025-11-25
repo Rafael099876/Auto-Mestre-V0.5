@@ -5,6 +5,13 @@ import React, { createContext, useState, useEffect, useContext, ReactNode } from
 const en = {
   // Header
   welcomeMessage: 'Welcome, {username}',
+  settingsTitle: 'Settings',
+  
+  // Settings Menu
+  themeLabel: 'Theme',
+  languageLabel: 'Language',
+  colorSchemeLabel: 'Color Scheme',
+  logoutButton: 'Log Out',
   
   // Login Page
   loginTitle: 'Welcome Back!',
@@ -73,6 +80,13 @@ const en = {
 const ptBR = {
   // Header
   welcomeMessage: 'Bem-vindo(a), {username}',
+  settingsTitle: 'Configurações',
+  
+  // Settings Menu
+  themeLabel: 'Tema',
+  languageLabel: 'Idioma',
+  colorSchemeLabel: 'Esquema de Cores',
+  logoutButton: 'Sair',
 
   // Login Page
   loginTitle: 'Bem-vindo(a) de volta!',

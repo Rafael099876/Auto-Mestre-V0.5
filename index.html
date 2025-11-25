@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,6 +5,12 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AutoCare Pro</title>
+    <style>
+      :root {
+        --color-primary: #3B82F6;
+        --color-primary-hover: #2563EB;
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -13,8 +18,8 @@
         theme: {
           extend: {
             colors: {
-              'primary': '#3B82F6', // blue-500
-              'primary-hover': '#2563EB', // blue-600
+              'primary': 'var(--color-primary)', // Dynamic primary color
+              'primary-hover': 'var(--color-primary-hover)', // Dynamic hover color
               'secondary': '#10B981', // emerald-500
               'light-bg': '#F9FAFB', // gray-50
               'light-card': '#FFFFFF',
