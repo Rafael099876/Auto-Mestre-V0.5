@@ -1,0 +1,5 @@
+{
+  "name": "AUTO MESTREv0.5",
+  "description": "A comprehensive vehicle maintenance application that helps users track tasks, manage multiple vehicles, and receive AI-powered step-by-step maintenance guides. Features include a visual timeline, detailed agenda, and a customizable light/dark mode interface.",
+  "requestFramePermissions": []
+}
